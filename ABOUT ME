@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Me | Ezra Mae Madronio</title>
+<meta name="description" content="About Ezra Mae Madronio, SEO content writer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Ezra Mae Madronio</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+        <li><a href="samples.html">Writing samples</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="page-head"><div class="wrap">
+    <h1>About me</h1>
+    <p>A writer who treats every article as both a ranking tool and a good read.</p>
+  </div></div>
+  <section>
+    <div class="wrap two">
+      <div class="copy">
+        <p>Hi, I’m Ezra Mae, an SEO content writer based in [City], Philippines. I write blog posts, guides, and web copy that answer real questions and bring the right readers to your site.</p>
+        <p>[Add 2 to 3 sentences about your background: how you started writing, the industries you have written for, and what you enjoy most about SEO.]</p>
+        <p>I believe good SEO writing starts with the reader. If the article helps the person who searched, search engines follow.</p>
+        <div class="btns"><a class="btn green" href="samples.html">See my writing</a></div>
+      </div>
+      <ul class="facts">
+        <li><strong>Specialty</strong>[Health and fitness, e-commerce, travel]</li>
+        <li><strong>Tools</strong>[Ahrefs, Semrush, Surfer, Google Search Console, WordPress]</li>
+        <li><strong>Languages</strong>English and Filipino</li>
+        <li><strong>Based in</strong>[City], Philippines</li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer>© 2026 Ezra Mae Madronio. SEO content writer.</footer>
+</body>
+</html>
