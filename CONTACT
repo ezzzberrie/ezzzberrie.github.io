@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Ezra Mae Madronio</title>
+<meta name="description" content="Contact Ezra Mae Madronio, SEO content writer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Ezra Mae Madronio</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="samples.html">Writing samples</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="page-head"><div class="wrap">
+    <h1>Let’s work together</h1>
+    <p>Need articles that bring in the right readers? Tell me about your project.</p>
+  </div></div>
+  <section>
+    <div class="wrap">
+      <div class="contact-box">
+        <p>Send me a message with your topic, your audience, and your deadline. I’ll reply with how I can help.</p>
+        <a class="btn black" href="mailto:[your-email@example.com]">Email me</a>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> [your-email@example.com]</li>
+          <li><strong>LinkedIn:</strong> [your LinkedIn link]</li>
+          <li><strong>Based in:</strong> [City], Philippines</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© 2026 Ezra Mae Madronio. SEO content writer.</footer>
+</body>
+</html>
