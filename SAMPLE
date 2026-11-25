@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Writing Samples | Ezra Mae Madronio</title>
+<meta name="description" content="SEO articles by Ezra Mae Madronio, each with its target keyword.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">Ezra Mae Madronio</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="samples.html" aria-current="page">Writing samples</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="page-head"><div class="wrap">
+    <h1>Writing samples</h1>
+    <p>A few articles I wrote and optimised for search. Each one shows the keyword it targets.</p>
+  </div></div>
+  <section>
+    <div class="wrap">
+      <div class="grid">
+        <article class="card">
+          <span class="niche">[Niche]</span>
+          <h3>[Article title]</h3>
+          <p>[One or two sentences about the article and the result it aimed for.]</p>
+          <p class="meta">Target keyword: [keyword]<br>Length: [1,800 words]</p>
+          <a class="read" href="#">Read the article</a>
+        </article>
+
+        <article class="card">
+          <span class="niche">[Niche]</span>
+          <h3>[Article title]</h3>
+          <p>[One or two sentences about the article and the result it aimed for.]</p>
+          <p class="meta">Target keyword: [keyword]<br>Length: [1,800 words]</p>
+          <a class="read" href="#">Read the article</a>
+        </article>
+
+        <article class="card">
+          <span class="niche">[Niche]</span>
+          <h3>[Article title]</h3>
+          <p>[One or two sentences about the article and the result it aimed for.]</p>
+          <p class="meta">Target keyword: [keyword]<br>Length: [1,800 words]</p>
+          <a class="read" href="#">Read the article</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© 2026 Ezra Mae Madronio. SEO content writer.</footer>
+</body>
+</html>
