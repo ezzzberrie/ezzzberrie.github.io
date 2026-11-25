@@ -1,0 +1,89 @@
+:root{
+  --pink:#F4A7C0;
+  --pink-soft:#FCE9F0;
+  --matcha:#A6B849;
+  --matcha-deep:#8DA036;
+  --black:#171414;
+  --white:#FFFFFF;
+  --muted:#5E5357;
+  --serif:"Young Serif",Georgia,"Times New Roman",serif;
+  --sans:"Instrument Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--black);background:var(--white);line-height:1.65;font-size:1.0625rem;min-height:100vh;display:flex;flex-direction:column}
+main{flex:1}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--black);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+
+/* Header */
+.top{background:var(--white);border-bottom:2px solid var(--black)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{font-family:var(--serif);font-size:1.25rem;text-decoration:none}
+nav ul{display:flex;gap:28px;list-style:none}
+nav a{text-decoration:none;font-weight:600;font-size:.98rem;padding:4px 0;border-bottom:3px solid transparent}
+nav a:hover{border-bottom-color:var(--pink)}
+nav a[aria-current="page"]{border-bottom-color:var(--matcha-deep)}
+
+/* Buttons */
+.btns{margin-top:34px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid var(--black)}
+.btn.green{background:var(--matcha);color:var(--black)}
+.btn.green:hover{background:var(--matcha-deep)}
+.btn.line{background:var(--white);color:var(--black)}
+.btn.line:hover{background:var(--black);color:var(--white)}
+.btn.black{background:var(--black);color:var(--white)}
+.btn.black:hover{background:var(--white);color:var(--black)}
+
+/* Home hero */
+.hero{background:var(--pink);padding:72px 0 88px;border-bottom:2px solid var(--black)}
+.hero .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.3rem,6vw,4.1rem);line-height:1.08;max-width:14ch}
+.hero p{margin-top:22px;max-width:50ch;font-size:1.2rem}
+.berry{width:100%;max-width:300px;justify-self:center;height:auto}
+
+/* Inner page heading */
+.page-head{background:var(--pink);padding:56px 0 52px;border-bottom:2px solid var(--black)}
+.page-head h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.1rem,5vw,3.2rem);line-height:1.12}
+.page-head p{margin-top:12px;max-width:52ch;font-size:1.15rem}
+
+section{padding:72px 0}
+.two{display:grid;grid-template-columns:1.5fr 1fr;gap:56px;align-items:start}
+.copy p{margin-bottom:18px;max-width:62ch}
+
+.facts{list-style:none;background:var(--matcha);border:2px solid var(--black);border-radius:16px;padding:8px 28px;box-shadow:8px 8px 0 var(--pink)}
+.facts li{padding:18px 0;border-bottom:2px solid var(--black)}
+.facts li:last-child{border-bottom:0}
+.facts strong{display:block;font-size:.95rem;margin-bottom:2px}
+
+/* Writing samples */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+.card{background:var(--white);border:2px solid var(--black);border-radius:16px;padding:30px;border-top:12px solid var(--matcha)}
+.card .niche{color:var(--muted);font-size:.95rem}
+.card h3{font-family:var(--serif);font-weight:400;font-size:1.35rem;line-height:1.25;margin:6px 0 12px}
+.card p{margin-bottom:16px}
+.meta{color:var(--muted);font-size:.95rem;margin-bottom:18px}
+.card a.read{font-weight:600;text-underline-offset:4px;text-decoration-thickness:3px;text-decoration-color:var(--pink)}
+.card a.read:hover{text-decoration-color:var(--matcha-deep)}
+
+/* Contact */
+.contact-box{max-width:620px;background:var(--matcha);border:2px solid var(--black);border-radius:16px;padding:40px;box-shadow:8px 8px 0 var(--pink)}
+.contact-box p{margin-bottom:24px}
+.contact-list{list-style:none;margin-top:28px;padding-top:20px;border-top:2px solid var(--black)}
+.contact-list li{margin-bottom:8px}
+
+footer{background:var(--black);color:var(--white);text-align:center;padding:26px 24px;font-size:.95rem}
+
+@media (max-width:760px){
+  .two,.hero .wrap{grid-template-columns:1fr;gap:36px}
+  .berry{max-width:200px;justify-self:start}
+  section{padding:56px 0}
+  .hero{padding:44px 0 56px}
+  .page-head{padding:40px 0 36px}
+  nav ul{gap:14px}
+  nav a{font-size:.9rem}
+  .bar{height:64px}
+  .contact-box{padding:28px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
